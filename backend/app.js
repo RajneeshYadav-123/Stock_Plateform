@@ -82,4 +82,4 @@ mongoose
     console.error("❌ MongoDB connection error:", error);
   });
 
-
+module.exports=app;
