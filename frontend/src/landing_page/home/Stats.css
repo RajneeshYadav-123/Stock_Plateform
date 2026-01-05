@@ -1,0 +1,59 @@
+.stats-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Left content */
+.stats-left h1 {
+  font-weight: 500;
+  color: #1f2933;
+}
+
+.stats-left h2 {
+  margin-top: 25px;
+  font-weight: 500;
+  color: #1f2933;
+}
+
+.stats-left p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.stats-image {
+  width: 90%;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.stats-links a {
+  color: #387ed1;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.stats-links i {
+  margin-left: 6px;
+  transition: transform 0.2s ease;
+}
+
+.stats-links a:hover i {
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .stats-left,
+  .stats-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .stats-right {
+    margin-top: 30px;
+  }
+
+  .stats-image {
+    width: 100%;
+  }
+}

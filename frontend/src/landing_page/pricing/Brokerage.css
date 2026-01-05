@@ -1,0 +1,45 @@
+.brokerage-section {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.brokerage-title {
+  text-decoration: none;
+  color: #387ed1;
+  font-weight: 500;
+}
+
+.brokerage-title:hover {
+  text-decoration: underline;
+}
+
+.brokerage-left ul {
+  margin-top: 25px;
+  padding-left: 18px;
+}
+
+.brokerage-list {
+  text-align: left;
+  line-height: 2.3;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.brokerage-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .brokerage-left,
+  .brokerage-right {
+    width: 100%;
+    text-align: left;
+  }
+
+  .brokerage-right {
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+}

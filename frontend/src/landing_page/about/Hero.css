@@ -1,0 +1,40 @@
+.hero-section {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.hero-heading h1 {
+  font-weight: 500;
+  color: #1f2933;
+  line-height: 1.4;
+}
+
+.hero-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.hero-content p {
+  margin-bottom: 18px;
+}
+
+.hero-link {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hero-content .col-6 {
+    width: 100%;
+    padding: 20px !important;
+  }
+
+  .hero-heading h1 {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,59 @@
+.team-section {
+  margin-bottom: 60px;
+}
+
+.team-heading h1 {
+  font-weight: 500;
+  color: #1f2933;
+  margin-top: 20px;
+}
+
+.team-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.team-profile h4 {
+  font-weight: 500;
+  color: #1f2933;
+}
+
+.designation {
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.team-image {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.team-description p {
+  margin-bottom: 16px;
+}
+
+.team-links a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.team-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .team-content .col-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .team-image {
+    width: 65%;
+  }
+
+  .team-description {
+    margin-top: 20px;
+  }
+}

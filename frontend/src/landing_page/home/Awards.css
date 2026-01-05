@@ -1,0 +1,67 @@
+.awards-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Image */
+.awards-image img {
+  width: 100%;
+}
+
+/* Content */
+.awards-content h1 {
+  font-weight: 500;
+  color: #1f2933;
+  margin-bottom: 20px;
+}
+
+.awards-content p {
+  color: #6b7280;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+/* Lists */
+.awards-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.awards-list li {
+  margin-bottom: 12px;
+  color: #374151;
+  position: relative;
+  padding-left: 20px;
+}
+
+.awards-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #387ed1;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+/* Logos */
+.press-logos {
+  width: 90%;
+  margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .awards-image,
+  .awards-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .awards-image img {
+    margin-bottom: 30px;
+  }
+
+  .press-logos {
+    width: 100%;
+  }
+}
