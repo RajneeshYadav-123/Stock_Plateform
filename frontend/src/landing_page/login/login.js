@@ -21,7 +21,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3001/user/login", {
+      const response = await fetch("https://stock-plateform.vercel.app/user/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -36,7 +36,7 @@ const Login = () => {
 
         localStorage.setItem("token", data.token);
 
-        navigate("http://localhost:3002/");
+        navigate("https://stock-plateform-f83i.vercel.app/");
       } else {
         alert(data.message || "Login failed");
       }

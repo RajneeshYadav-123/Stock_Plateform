@@ -22,7 +22,7 @@ const Signup = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3001/user/signup", {
+      const response = await fetch("https://stock-plateform.vercel.app/user/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

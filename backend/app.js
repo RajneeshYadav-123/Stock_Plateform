@@ -18,8 +18,8 @@ const MONGO_URL = process.env.MONGO_URL;
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "http://localhost:3002",
+      "https://stock-plateform-p913.vercel.app/pricing",
+      "https://stock-plateform-f83i.vercel.app/",
     ],
     credentials: true,
   })
